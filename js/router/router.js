@@ -7,7 +7,8 @@ angular.module("singlepageapp").config(["$routeProvider",function ($routeProvide
    });
 
     $routeProvider.when("/cadastroDeCliente",{
-        templateUrl:"view/cadastro-de-cliente.html"
+        templateUrl:"view/cadastro-de-cliente.html",
+        controller:"view/cadastroClienteController"
     });
 
     $routeProvider.when("/cadastroDeProduto",{
