@@ -2,8 +2,10 @@
  * Created by Vagner Bellaver on 06/03/2017.
  */
 angular.module("singlepageapp").config(["$routeProvider",function ($routeProvider) {
+
    $routeProvider.when("/",{
-       templateUrl:"view/home.html"
+       templateUrl:"view/home.html",
+       controller: "HomeController"
    });
 
     $routeProvider.when("/cadastroDeCliente",{
