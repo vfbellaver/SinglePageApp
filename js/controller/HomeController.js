@@ -1,7 +1,7 @@
 /**
  * Created by Vagner Bellaver on 13/03/2017.
  */
-angular.module("SinglePageApplication").controller("HomeController", function ($scope, SinglePageApplicationAPIservice) {
+angular.module("singlepageapp").controller("HomeController", function ($scope, SinglePageApplicationAPIservice) {
     $scope.coordenada = {};
 
     var atualizarCoordenada = function(){

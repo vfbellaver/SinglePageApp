@@ -1,7 +1,7 @@
 /**
  * Created by Vagner Bellaver on 13/03/2017.
  */
-angular.module("SinglePageApplication").factory("SinglePageApplicationAPIservice", function ($http) {
+angular.module("singlepageapp").factory("SinglePageApplicationAPIservice", function ($http) {
     var _ultimaCoordenada = function(){
         return $http({
             method:"GET",
